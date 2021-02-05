@@ -1,7 +1,7 @@
 '''
 Puzzle game
 The program checks whether the entered combination is winning
-Repository address on GitHub:
+Repository address on GitHub: https://github.com/Sukhorskyy/puzzle.git
 '''
 
 def read_board(board):
