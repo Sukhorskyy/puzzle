@@ -53,7 +53,7 @@ def vertical(board):
     return result
 
 
-def color(board):
+def check_color(board):
     '''
     (list) -> bool
     Check whether the numbers repeat in the cells of the same color
@@ -90,7 +90,7 @@ def validate_board(board):
     board = read_board(board)
     if vertical(board) == False:
         return False
-    if color(board)  == False:
+    if check_color(board)  == False:
         return False
     if horisontal(board) == False:
         return False
